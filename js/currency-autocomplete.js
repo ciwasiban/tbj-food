@@ -120,7 +120,7 @@ $(function () {
             x = x.toFixed(2);
             var x_word = parseInt(x * 100) / 10;
             if (x >= 1) {
-                thehtml = thehtml + '<li class="redli">出價: ' + i + ' 等於打 ' + x_word + ' 折</li>';
+                thehtml = thehtml + '<li class="redli">出價: ' + i + ' 等於 ' + x_word + ' 折</li>';
             } else {
                 thehtml = thehtml + '<li>出價: ' + i + ' 等於打 ' + x_word + ' 折</li>';
             }

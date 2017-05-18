@@ -122,7 +122,7 @@ $(function () {
             if (x >= 1) {
                 thehtml = thehtml + '<li class="redli">出價: ' + i + ' 等於 ' + x_word + ' 折</li>';
             } else {
-                thehtml = thehtml + '<li>出價: ' + i + ' 等於打 ' + x_word + ' 折</li>';
+                thehtml = thehtml + '<li>出價: ' + i + ' 等於 ' + x_word + ' 折</li>';
             }
         }
         return thehtml;

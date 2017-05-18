@@ -1,6 +1,6 @@
 var BottomPrize = 500;
 var TopPrize = 40000;
-var AddPrize = 1000;
+var AddPrize = 500;
 var TotalPrize = 0;
 var myVerify = false;
 

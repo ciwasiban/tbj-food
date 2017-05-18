@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>How much does these food cost?</title>
+  <link rel="shortcut icon" href="http://designshack.net/favicon.ico">
+  <link rel="icon" href="http://designshack.net/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+  <script type="text/javascript" src="js/currency-autocomplete.js"></script>
+  <script type="text/javascript" src="js/data.js"></script>
+</head>
+
+<body>
+  <div id="topbar"><a href="#">哈哈哈</a></div>
+  <div id="w">
+    <div id="content">
+      <h1>濱江 FB 直播即時計算系統</h1>
+
+      <p>
+        Step1. 基本設定
+      </p>
+
+       <div id="searchfield2">
+            <form >
+                起標: <input type="text" class="biginput" id="BottomPrize" value="0">
+                頂標: <input type="text" class="biginput" id="TopPrize" value="0">
+                每次加多少: <input type="text" class="biginput" id="AddPrize" value="0">
+            </form>
+        </div>
+      <p>
+        Step2. 請在表格內填入部份品項名稱及數量 (可重覆累加)
+      </p>
+      
+      <div id="searchfield">
+        <form >
+            品項: <input type="text" name="currency" class="biginput" id="autocomplete">
+            數量: <input type="text" name="currency2" class="biginput2" value="0" id="ItemNumber">
+        </form>
+      </div><!-- @end #searchfield -->
+      
+      <div id="outputbox">
+        <p id="outputcontent"</p>
+      </div>
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+  <div id="w2">
+    <div id="content2">
+        <h1 id="totalPrizeTitle">試算結果</h1>
+        <div id="outputbox2">
+            <p id="outputcontent2"></p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -12,12 +12,20 @@
 </style>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+$(function(){
+
+  var helloWord = ['今天得標了沒？', '今天晚餐吃什麼？', '早安午安晚安!', '現在幾點了, 還沒休息?', '阿桃今天有得標嗎?', '你知道嗎? 薇伊是大美女喔~'];
+  var i = Math.floor((Math.random() * 6));
+  $('#helloWord').html("大大您好," + helloWord[i]);
+});
+</script>
 </head>
 
 <body>
 <div data-role="page" class="jqm-demos" id="myPage">
     <div data-role="header">
-        <h4>Hi 您好,</h4>
+        <h4 id="helloWord">Hi 您好,</h4>
     </div>
     <div role="main" class="ui-content">
         <h3>濱江商品價格快速查詢器</h3>

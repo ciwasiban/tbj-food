@@ -15,9 +15,14 @@
 <script>
 $(function(){
 
-  var helloWord = ['今天得標了沒？', '今天晚餐吃什麼？', '早安午安晚安!', '現在幾點了, 還沒休息?', '阿桃今天有得標嗎?', '你知道嗎? 薇伊是大美女喔~'];
-  var i = Math.floor((Math.random() * 6));
-  $('#helloWord').html("大大您好," + helloWord[i]);
+  var helloWord = [
+  '我們是有愛的群組喔~',
+  '到薇伊大店裡取貨要在8點前喔~',
+  'M大有賣芒果青喔~',
+  'Y大也可以叫阿桃或者桃弟喔~',
+  ];
+  var i = Math.floor((Math.random() * helloWord.length));
+  $('#helloWord').html("大大您好, 你知道嗎? " + helloWord[i]);
 });
 </script>
 </head>
